@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'LabelFont';
+  src: url('Impact Label.ttf') format('truetype');
+}
+
+/*div.image{
+    height: 200px;
+    width: 600px;
+}
+
+div.image img{
+    object-fit: contain;
+}*/
+/*.banner-container {
+  width: 85%;
+  height: 450px;
+  margin: auto;
+  display: block;
+  background-image: url("bannerimage.JPG");
+  background-position: center;
+  overflow: hidden;
+}*/
+
+.banner-container{
+    width: 1024px;
+    height: 450px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.banner-container img {
+    height: 30%;
+    width:auto;
+    margin-top: -46%;
+    margin-bottom: -90%;
+    margin-left: -110%;
+    margin-right: 160%;
+}*/
+ul.menu li a{
+    text-decoration: none;
+    color: #F00;
+}
+
+ul.menu li{
+    display:inline;
+    margin-left: -20px;
+    padding:0 190px;
+    font-family: LabelFont;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.aboutme{
+    background-color: black;
+    height: 50px;
+    width: 85%;
+    text-decoration-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slides-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.savoryOats{
+    display: block;
+}
+.map {
+    width: 100%;
+}
+.scroll-menu{
+    margin-top: 40px;
+    margin-left: 25px;
+    float:left;
+    font-size: 25px;
+    font-family: 'Alegreya Sans SC';
+}
+
+.scroll-menu li{
+    margin-top: 20px;
+}
+.recipe-content{
+    width: 1550px;
+    height:600px;
+    background-color:white;
+    margin-left: 300px;
+    margin-top: 55px;
+}
+.info{
+    width: 40%;
+    height: 300px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Alegreya Sans SC';
+    font-size: 20px;
+}
+
+.contactinfo{
+    margin: auto;
+}
+.slide{
+    min-width: 700px;
+}
+body {
+    background-image: url("sushi.jpg");
+    background-size: cover;
+}

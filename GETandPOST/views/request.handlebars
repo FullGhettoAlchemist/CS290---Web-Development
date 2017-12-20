@@ -1,0 +1,14 @@
+<div class="entry">
+    <head>
+        <font size = "6">GET and POST Checker </font>
+    </head>
+    <h1> {{heading}}</h1>
+    <div class="body">
+        {{body}}
+        <ul style="list-style-type:none; font-size:25px">
+            {{#each dataList}}
+                <li> {{this.key}}: {{this.value}}
+            {{/each}}
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'LabelFont';
+  src: url('Impact Label.ttf') format('truetype');
+}
+
+.banner-container{
+    width: 1024px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url('banner.jpg');
+}
+
+ul.menu li a{
+    text-decoration: none;
+    color: #F00;
+}
+
+ul.menu li{
+    display:inline;
+    margin-left: -20px;
+    padding:0 190px;
+    font-family: LabelFont;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.aboutme{
+    background-color: black;
+    height: 50px;
+    width: 55%;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.slides-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.slide{
+    min-width: 700px;
+}
+.map {
+    width: 100%;
+}
+.scroll-menu{
+    margin-top: 40px;
+    margin-left: 25px;
+    float:left;
+    font-size: 25px;
+    font-family: 'Alegreya Sans SC';
+}
+
+.scroll-menu li{
+    margin-top: 20px;
+}
+#recipe-content{
+    width: 1550px;
+    height:700px;
+    background-color:white;
+    margin-left: 300px;
+    margin-top: 55px;
+}
+.recipe-details p{
+    font-size: 22px;
+}
+.blog-entry{
+    font-size: 20px;
+}
+.info{
+    width: 40%;
+    height: 200px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Alegreya Sans SC';
+    font-size: 20px;
+}
+
+.contactinfo{
+    margin: auto;
+}
+
+.me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    background-image: url("sushi.jpg");
+    background-size: cover;
+}
